@@ -9,7 +9,7 @@ int main()
 	int tPeople = 16500;
 	double pOF = 0.15;
 	int mDPW = tPeople * pOF;
-	std::cout << "About 15% or " << mDPW << " people\n" << "\n";
+	std::cout << "About 15% or " << mDPW << " people\n\n";
 	std::cout << "How many of those people prefered citrus flavors?\n";
 	double pFE = 0.58;
 	int pCF = mDPW * pFE;
