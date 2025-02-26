@@ -7,13 +7,10 @@ int main()
 {
     std::cout << "How much higher will the sea level be in x years?\n";
     double rOChange = 1.5;
-    int five = 5;
-    double fydOceanLevel = five * rOChange;
+    double fydOceanLevel = 5 * rOChange;
     std::cout << "5: " << fydOceanLevel << "mm higher\n";
-    int seven = 7;
-    double sydOceanLevel = seven * rOChange;
+    double sydOceanLevel = 7 * rOChange;
     std::cout << "7: " << sydOceanLevel << "mm higher\n";
-    int ten = 10;
-    double tydOceanLevel = ten * rOChange;
+    double tydOceanLevel = 10 * rOChange;
     std::cout << "10: " << tydOceanLevel << "mm higher\n";
 }
